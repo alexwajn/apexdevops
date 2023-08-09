@@ -1,0 +1,35 @@
+Git workflow
+
+>git checkout -b <branch name>
+
+This command creates and jumps into a new branch
+
+(make changes to the files required)
+
+>git add <file name> 
+
+This command adds to the commit the files to a revision
+
+>git commit -m "<Message here for the commit>"
+
+This command commits the changes to the new branch created on step 1
+
+> git push
+
+This command pushes the changes (including addition of a new branch) to the repository
+
+(on GitHub, compare and create a new pull request to upload the changes to the remote repository)
+
+(After the approvers verify the files and agree to merge the branch...)
+
+> git checkout main
+
+This command activates back the main branch
+
+> git merge <branch name created on step 1>
+
+This command merges locally from the new branch into the main
+
+> git branch -d <branch name>
+
+This command deletes the branch created to keep it clean
