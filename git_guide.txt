@@ -32,4 +32,6 @@ This command merges locally from the new branch into the main
 
 > git branch -d <branch name>
 
-This command deletes the branch created to keep it clean
+This command deletes the branch created to keep it clea
+
+n
