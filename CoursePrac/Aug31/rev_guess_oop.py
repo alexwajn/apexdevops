@@ -1,6 +1,6 @@
 import random
 
-class RevGuessingGame:
+class ReverseGuessingGame:
     MAX_NUM = 100
     MIN_NUM = 1
     n_tries = 0
@@ -32,7 +32,7 @@ class RevGuessingGame:
 
 inp = "p"
 while inp == "p":
-    game = RevGuessingGame()
+    game = ReverseGuessingGame()
     game.game_loop()
     inp = input("Press p to play again or any other character to exit:_")
 print("Exiting....")
