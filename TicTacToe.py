@@ -56,7 +56,7 @@ class TicTacToe:
             winner = player
             if player == "X": player = "O"
             else: player = "X"
-        if self.check_win(winner):
+        if not(self.check_win(winner)):
             print(f"Player {winner} won!")
         else: print("Nobody won this time!")
 game = TicTacToe()
